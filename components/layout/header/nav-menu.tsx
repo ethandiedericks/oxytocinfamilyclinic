@@ -18,12 +18,18 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
 
           <div className="flex-shrink-0">
-            <Image
-                src={logo}
-                width={70}
-                height={70}
-                alt='logo'
-            />
+            <Link
+              href={"#"}
+            >
+              <Image
+                  src={logo}
+                  width={70}
+                  height={70}
+                  alt='logo'
+                  className='hover:cursor-pointer'
+              />
+            </Link>
+            
           </div>
 
           <div className="hidden md:flex space-x-8">

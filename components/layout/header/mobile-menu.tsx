@@ -1,4 +1,5 @@
 import { X, Menu } from 'lucide-react';
+import Link from 'next/link';
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -13,7 +14,7 @@ const MobileMenu = ({ isOpen, setIsOpen, navLinks }: MobileMenuProps) => {
       <div className="md:hidden flex items-center">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+          className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-custom-blue-hover hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
           aria-expanded={isOpen}
           aria-label="Toggle menu"
         >
@@ -31,14 +32,14 @@ const MobileMenu = ({ isOpen, setIsOpen, navLinks }: MobileMenuProps) => {
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
-              className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+              className="text-gray-700 hover:text-custom-blue-hover hover:cursor-pointer block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
               onClick={() => setIsOpen(false)}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </div>
       </div>
