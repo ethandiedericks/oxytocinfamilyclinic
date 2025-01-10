@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-blue': {
+          DEFAULT: '#6EC1E4',
+          hover: '#4FAFD2'
+        }
       },
     },
   },
