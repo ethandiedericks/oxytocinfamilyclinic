@@ -19,3 +19,46 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.custom-shape-divider-top-1736693625 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1736693625 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 129px;
+}
+
+.custom-shape-divider-top-1736693625 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+.mts-shape-divider-top-1736701427 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.mts-shape-divider-top-1736701427 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 129px;
+}
+
+.mts-shape-divider-top-1736701427 .shape-fill {
+  fill: #F5F5F5;
+}

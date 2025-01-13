@@ -1,35 +1,33 @@
-"use client";
+'use client';
 
 import { useState } from 'react';
 import Link from 'next/link';
 import MobileMenu from '@/components/layout/header/mobile-menu';
 import { navLinks } from '@/lib/constants';
 import Image from 'next/image';
-import logo from "@/public/images/logo.png"
+import blurred_logo from '@/public/images/blurred_logo.png';
 import Button from '@/components/ui/button';
 
-const Navigation = () => {
+const DesktopMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-
   return (
-    <nav className="bg-white shadow-lg relative">
-      <div className="max-w-6xl mx-auto px-4">
+    <nav className="bg-white relative border border-b ">
+      <div className="w-full mx-auto py-2 px-4 lg:px-20  ">
         <div className="flex justify-between items-center h-16">
-
-          <div className="flex-shrink-0">
-            <Link
-              href={"#"}
-            >
+          <div className="hidden md:inline-flex items-center">
+            <Link href={'#'}>
               <Image
-                  src={logo}
-                  width={70}
-                  height={70}
-                  alt='logo'
-                  className='hover:cursor-pointer'
+                src={blurred_logo}
+                width={60}
+                height={60}
+                alt="logo"
+                className="hover:cursor-pointer"
               />
             </Link>
-            
+            <span className="text-md font-medium text-gray-700">
+              Oxytocin Family Clinic
+            </span>
           </div>
 
           <div className="hidden md:flex space-x-8">
@@ -44,12 +42,13 @@ const Navigation = () => {
             ))}
           </div>
 
-          <div className='hidden md:flex'>
-            <Button>Contact</Button>
+          <div className="hidden md:flex">
+            <Link href={'#contact'}>
+              <Button>Contact</Button>
+            </Link>
           </div>
 
-
-          <MobileMenu 
+          <MobileMenu
             isOpen={isOpen}
             setIsOpen={setIsOpen}
             navLinks={navLinks}
@@ -60,4 +59,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default DesktopMenu;

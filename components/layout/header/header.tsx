@@ -1,10 +1,8 @@
-import React from 'react'
-import Navigation from '@/components/layout/header/nav-menu'
+import React from 'react';
+import DesktopMenu from '@/components/layout/header/desktop-menu';
 
 const Header = () => {
-  return (
-    <Navigation/>
-  )
-}
+  return <DesktopMenu />;
+};
 
-export default Header
+export default Header;
