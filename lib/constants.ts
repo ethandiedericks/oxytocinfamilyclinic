@@ -11,61 +11,73 @@ export const navLinks = [
       icon: Baby,
       title: 'Midwife-Led Care',
       description: 'Personalized care by experienced midwives for safe and healthy pregnancies.',
+      image: "/images/services/midwife-led-care.jpg"
     },
     {
       icon: Heart,
       title: 'Antenatal Care',
       description: 'Regular check-ups to monitor and ensure the health of both mother and baby.',
+      image: "/images/services/antenatal-care.jpg"
     },
     {
       icon: Home,
       title: 'Home/Facility Birth',
       description: 'Support for natural births at home or in our facility.',
+      image: "/images/services/home-facility-birth.jpg"
     },
     {
       icon: Smile,
       title: 'Doula Services',
       description: 'Compassionate support during labor and postpartum.',
+      image: "/images/services/doula-service.jpg"
     },
     {
       icon: Droplet,
       title: 'Breastfeeding Consultations',
       description: 'Guidance and support for successful breastfeeding.',
+      image: "/images/services/breastfeeding-consultations.jpg"
     },
     {
       icon: Stethoscope,
       title: 'Baby Wellness Clinic',
       description: 'Routine health checks, immunizations, and wellness monitoring for your baby.',
+      image: "/images/services/baby-wellness-clinic.jpg"
     },
     {
       icon: Pill,
       title: 'Female Wellness Clinic',
       description: 'Comprehensive women’s health services, including Pap smears and family planning.',
+      image: "/images/services/female-wellness-clinic.jpg"
     },
     {
       icon: Clipboard,
       title: 'Postnatal Care',
       description: 'Care for mothers after childbirth, including post-cesarean wound care.',
+      image: "/images/services/postnatal-care.jpg"
     },
     {
       icon: Activity,
       title: 'Healthy Pregnancy Classes',
       description: 'Classes to prepare for a healthy pregnancy and childbirth.',
+      image: "/images/services/healthy-pregnancy-classes.jpg"
     },
     {
       icon: Droplet,
       title: 'Blood Sampling & Testing',
       description: 'Convenient blood tests for various health needs.',
+      image: "/images/services/blood-sampling-testing.jpg"
     },
     {
       icon: Users,
       title: 'HIV/AIDS Counseling',
       description: 'Support and testing services for HIV/AIDS management.',
+      image: "/images/services/hiv-aids-counseling.jpg"
     },
     {
       icon: Smile,
       title: 'Miscarriage Support',
       description: 'Emotional and medical support during difficult times.',
+      image: "/images/services/miscarriage-support.jpg"
     },
   ];
 
