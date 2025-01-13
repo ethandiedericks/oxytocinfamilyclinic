@@ -5,7 +5,7 @@ import Link from 'next/link';
 import MobileMenu from '@/components/layout/header/mobile-menu';
 import { navLinks } from '@/lib/constants';
 import Image from 'next/image';
-import blurred_logo from '@/public/images/blurred_logo.png';
+import logo_no_words from '@/public/images/logo_no_words.png';
 import Button from '@/components/ui/button';
 
 const DesktopMenu = () => {
@@ -18,7 +18,7 @@ const DesktopMenu = () => {
           <div className="hidden md:inline-flex items-center">
             <Link href={'#'}>
               <Image
-                src={blurred_logo}
+                src={logo_no_words}
                 width={60}
                 height={60}
                 alt="logo"

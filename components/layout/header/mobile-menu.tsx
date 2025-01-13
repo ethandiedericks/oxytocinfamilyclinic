@@ -12,9 +12,20 @@ interface MobileMenuProps {
 const MobileMenu = ({ isOpen, setIsOpen, navLinks }: MobileMenuProps) => {
   return (
     <>
-      <div className="w-full md:hidden flex justify-between">
-        <div>
-          <Image src={logo_no_words} width={50} height={50} alt="logo" />
+      <div className="w-full md:hidden flex items-center justify-between">
+        <div className="inline-flex items-center">
+          <Link href={'#'}>
+            <Image
+              src={logo_no_words}
+              width={60}
+              height={60}
+              alt="logo"
+              className="hover:cursor-pointer"
+            />
+          </Link>
+          <span className="text-md font-medium text-gray-700">
+            Oxytocin Family Clinic
+          </span>
         </div>
 
         <div>
@@ -34,7 +45,7 @@ const MobileMenu = ({ isOpen, setIsOpen, navLinks }: MobileMenuProps) => {
       </div>
 
       <div
-        className={`${isOpen ? 'block' : 'hidden'} md:hidden absolute top-16 left-0 right-0 z-50`}
+        className={`${isOpen ? 'block' : 'hidden'} md:hidden absolute top-20 left-0 right-0 z-50`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
           {navLinks.map((link) => (

@@ -3,11 +3,24 @@ import background from '@/public/images/background/background.jpg';
 
 const BackgroundMobile = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-pink-50 to-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative py-16 bg-gradient-to-b from-pink-100 via-pink-100 to-gray-100">
+      <div className="background-mobile-shape-divider-top-1736770057">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
+            className="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div className="container mx-auto pt-20 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+          <div className="space-y-6 ">
+            <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">
               Nurturing New Beginnings
             </h2>
             <p className="text-lg text-gray-600">

@@ -62,3 +62,45 @@ body {
 .mts-shape-divider-top-1736701427 .shape-fill {
   fill: #F5F5F5;
 }
+
+.mts-mobile-shape-divider-top-1736770163 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.mts-mobile-shape-divider-top-1736770163 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.mts-mobile-shape-divider-top-1736770163 .shape-fill {
+  fill: #F5F5F5;
+}
+
+.background-mobile-shape-divider-top-1736770057 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.background-mobile-shape-divider-top-1736770057 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.background-mobile-shape-divider-top-1736770057 .shape-fill {
+  fill: #FFFFFF;
+}
