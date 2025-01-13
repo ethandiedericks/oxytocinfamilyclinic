@@ -100,3 +100,8 @@ export const navLinks = [
     phone: '+27783923577',
     email: 'oxytocinfamilyclinic@gmail.com'
   }
+
+  export const SOCIAL_LINKS = {
+    facebook:'https://www.facebook.com/share/17NrLFyBAQ/?mibextid=wwXIfr',
+    tiktok:'https://www.tiktok.com/@oxytocinfamilyclinic?_t=ZM-8t0iG2jlbQE&_r=1'
+  }
